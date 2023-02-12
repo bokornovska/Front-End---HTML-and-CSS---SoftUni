@@ -1,0 +1,193 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #41bead;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+}
+
+.nav {
+
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+    align-items: center;
+
+}
+
+.nav-logo {
+    width: 150px;
+}
+
+.nav-logo img {
+    width: 100%;
+}
+
+.nav-list-items {
+    display: flex;
+    gap: 30px;
+
+}
+
+.nav-list-item a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.teachers {
+    background-color: #ffb402;
+    color: white;
+    text-align: center;
+    padding: 80px 0px;
+}
+
+.teachers p {
+    max-width: 50%;
+    margin: 20px auto;
+    font-size: 20px;
+
+}
+
+.teachers h1 {
+    font-size: 45px;
+}
+
+.main-trainers {
+    padding: 50px 80px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.main-trainer {
+    display: flex;
+    /* align-items:flex-start; */
+}
+
+.main-trainer:nth-child(1) {
+    margin-right: 30px;
+}
+
+.main-trainer-img {
+    border-radius: 50%;
+    min-width: 200px;
+}
+
+.main-trainer-img img {
+    border: 8px solid #41bead;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.main-trainer-name {
+    color: #41bead;
+    font-size: 25px;
+    padding-left: 25px;
+}
+
+.main-trainer-possition {
+    color: lightgrey;
+    padding-left: 25px;
+    padding-bottom: 30px;
+}
+
+.main-trainer-text {
+    color: grey;
+    padding-left: 25px;
+    width: 80%;
+}
+
+.all-trainers{
+    padding:100px 80px 40px 80px;
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+  
+}
+
+.all-trainers .main-trainer-img img{
+    height:100%;
+    object-fit: cover;
+    width:192px;
+    height:192px;
+}
+
+.all-trainers .main-trainer-img{
+    margin-right: 0;
+}
+
+.all-trainers-trainer{
+margin:0 15px;
+}
+
+.kids-team{
+    background-color: #66b9f8;
+    color:white;
+    text-align: center;
+    padding:100px 200px;
+    border-top: 10px solid #92cdfb;
+}
+
+.kids-team-title{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.kids-team-subtitle{
+    max-width:60%;
+    margin:0 auto 30px auto;
+}
+
+.kids-team-form input{
+    border:1px solid white;
+    /* color:white; */
+    border-radius: 4px;
+    padding:10px;
+    background-color: transparent;
+    margin-right:20px;
+}
+
+.kids-team-form input::placeholder{
+    color:white;
+}
+
+.kids-team-form button{
+    background-color: #ff9100;
+    color:white;
+    margin-left:30px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border:1px solid #ff9100;
+    font-weight: bold;
+    padding:12px 26px;
+    -webkit-box-shadow: 8px 5px 15px -2px rgba(0,0,0,0.69); 
+box-shadow: 8px 5px 15px -2px rgba(0,0,0,0.69);
+}
+
+footer{
+   
+    background-color: #565656;
+    border-top:10px solid #919191;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    padding:100px 200px;
+}
+
+footer h5{
+    font-weight: bold;
+}
+
+footer article:last-child ul{
+    display:flex;
+    gap:15px;
+}
+
