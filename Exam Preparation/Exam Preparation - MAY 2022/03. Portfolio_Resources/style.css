@@ -1,0 +1,270 @@
+:root {
+    --clr-background: #efefef;
+
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    padding: 2rem;
+}
+
+/* ---------------Utilities--------------- */
+
+.section {
+    background-color: var(--clr-background);
+    padding: 5rem;
+    margin-bottom: 2rem;
+    height: 70vh;
+
+    display:flex;
+    align-items: center;
+}
+
+.section-item--wide {
+    width: 55%
+}
+
+.section-item--narrow {
+    width:calc(45%-4rem)
+}
+
+.default-title {
+    font-size: 3.5rem;
+    font-weight: 300;
+    margin-bottom: 2.5rem;
+}
+
+.default-title .accent {
+    font-weight: bold;
+}
+
+.default-desc {
+    font-size: 1.75rem;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.divider {
+    background-color: black;
+}
+
+.divider.divider-vertical {
+    width: 2px;
+    height: 6rem;
+}
+
+.divider.divider-horizontal {
+    width: 6rem;
+    height: 2px;
+}
+
+/* ---------------Layout--------------- */
+
+/* HEADER */
+
+#header {
+    background-color: var(--clr-background);
+    height: 10vh;
+
+    
+}
+
+#header button{
+float:right;
+border:none;
+padding:2rem;
+
+}
+
+/* Hero */
+
+#hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#hero .info {
+    width: 45%;
+}
+
+#hero .info-title {
+    font-size: 3.5rem;
+    font-weight: 300;
+    margin-bottom: 2.5rem;
+}
+
+#hero .info-decription {
+    margin-bottom: 2rem;
+}
+
+#hero img {
+    position: absolute;
+    bottom: 0px;
+    right: 7rem;
+    width: 45%
+}
+
+/* Purpose */
+
+#purpose {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#purpose .title-wrapper {
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+/* 
+#purpose .purpose-img {
+    width: 40%;
+    margin-right: 6rem;
+    margin-left: auto;
+} */
+
+/* #purpose .info {
+    width: 50%;
+} */
+
+#purpose .title-wrapper .default-title {
+    margin-bottom: unset;
+    margin-left: 2.5rem;
+}
+
+#purpose .default-desc {
+    margin-bottom: 2rem;
+}
+
+#purpose .socials {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#purpose .socials .social-link {
+    background-color: darkgray;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Poster */
+#poster.section {
+    padding: unset;
+}
+
+#poster .background-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Fourth */
+
+#fourth {
+    display: flex;
+    align-items: center;
+    
+}
+
+#fourth .info {
+    width: 40%;
+    margin-right:8rem;
+}
+
+#fourth img {
+    width: 45%;
+}
+
+/* Gallery */
+
+#gallery img{
+    width:33.33%;
+    /* position: relative;
+    z-index:1; */
+}
+
+#gallery img:nth-child(2){
+   transform: scale(1.5);
+   /* z-index:2; */
+}
+
+/* Contacts */
+
+#contact .content{
+    width:82%;
+    margin:0 auto;
+    text-align: center;
+}
+
+#contact .default-desc{
+    margin-bottom:2.5rem;
+
+}
+
+#contact .form{
+
+    width:55%;
+    margin:0 auto;
+    display:grid;
+    gap:1.5rem;
+    grid-template-areas: 
+    "email subject"
+    "msg msg"
+    "btn btn";
+
+}
+
+#contact .form .email{
+    grid-area: email;
+    border:1px solid black;
+    background-color: transparent;
+    padding:0.5rem;
+}
+
+#contact .form .subject{
+    grid-area: subject;
+    border:1px solid black;
+    background-color: transparent;
+    padding:0.5rem;
+}
+
+#contact .form .msg{
+    grid-area: msg;
+    border:1px solid black;
+    background-color: transparent;
+    padding:0.5rem;
+}
+
+#contact .form button{
+    grid-area: btn;
+    border:1px solid black;
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    padding:0.5rem;
+}
+
+/* Footer */
+
+#contact .section {
+
+    margin-bottom: 0 auto;
+
+}
+
+footer{
+    background-color: var(--clr-background);
+    margin:0 auto;
+    text-align: center;
+}
