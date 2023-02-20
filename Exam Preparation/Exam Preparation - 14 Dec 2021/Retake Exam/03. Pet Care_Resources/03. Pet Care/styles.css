@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans";
+    width: 1920px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins";
+}
+
+header {
+    max-width: 1920px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 300px;
+    margin: 20px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.top-img {
+    width: 1920px;
+    position: relative;
+    height: 900px;
+}
+
+.header-img {
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.header-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.header-dog {
+    position: relative;
+    top: -650px;
+    right: -600px;
+}
+
+.top-img-text {
+    position: relative;
+    color: white;
+    width: 500px;
+    top: -1500px;
+    left: 300px;
+}
+
+.top-img-text .care {
+    font-size: 100px;
+    font-weight: 100;
+}
+
+.top-img-text h1 {
+    font-size: 100px;
+    font-weight: bolder;
+}
+
+.top-img-text p {
+    font-size: 20px;
+}
+
+.top-img-text .top-btn {
+    color: orangered;
+    background-color: white;
+    font-size: 20px;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+.services {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.services h2 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.services .services-text {
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+}
+
+.sevice-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-inline: 400px;
+}
+
+.card {
+    width: 30%;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    padding: 50px;
+    margin-inline: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-img {
+    height: 150px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+.card-pet {
+    position: relative;
+    top: -120px;
+    left: 35px;
+}
+
+.card-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 20px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 430px;
+    margin-top: 200px;
+}
+
+.about-heading {
+    font-size: 50px;
+}
+
+.about-subheading {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.about-text {
+    font-size: 15px;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+
+.about-btn {
+    color: white;
+    background-color: orangered;
+    font-size: 20px;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+.contact {
+    width: 900px;
+    height: 700px;
+}
+
+.contact-text {
+    position: relative;
+    top: -400px;
+    left: 500px;
+    color: white;
+    padding-inline: 50px;
+}
+
+.contact-heading {
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.contact-text-content {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.contact-btn {
+    font-size: 20px;
+    color: orangered;
+    background-color: white;
+    border: none;
+    padding: 15px 50px;
+    border-radius: 30px;
+}
+
+.actions p {
+    margin-top: 10px;
+}
+
+.actions p span {
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 80px;
+    gap: 120px;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.footer-list h4{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-list ul{
+    list-style: none;
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+.quick-link{
+    margin-left: 30px;
+}
+
+.footer-list ul li{
+    margin-top: 10px;
+}
+
+.footer-logo{
+    margin-left: 70px;
+}
+
+.footer-logo p{
+    margin-top: 30px;
+    font-size: 15px;
+    line-height: 1.2;
+    width: 250px;
+}
