@@ -1,0 +1,173 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+.header{
+    background: url(./images/landing-photo.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:100%;
+    height:600px;
+    width:100%;
+}
+
+.nav-menu{
+    display:flex;
+    padding:50px 200px;
+    justify-content: space-between;
+}
+
+.menu-items{
+    display:flex;
+   
+}
+
+.menu-items li a{
+    text-decoration: none;
+    padding-right:30px;
+    color:black;
+    padding:5px 15px;
+}
+
+.menu-items li :hover{
+    color:white;
+    background-color: #370410;
+    padding:8px;
+    border-radius: 30px;
+
+}
+
+.nav-menu .logo{
+    padding:0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.heading{
+    padding:50px 200px;
+}
+
+.heading .title-main{
+    font-size: 40px;
+}
+
+.title-sub h4{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.title-info{
+    padding:30px 0px;
+}
+
+.title-btn button{
+    background-color: #35030e;
+    color:white;
+    padding:5px 30px;
+    border-radius: 30px;
+}
+
+/* MAIN */
+
+.main-title{
+    text-align: center;
+    padding-top:50px;
+}
+
+.main-title p{
+    color:darkgrey;
+}
+
+.main-articles{
+    display:flex;
+    justify-content: center;
+    padding:10px 130px;
+    gap: 25px;
+    padding-top:25px;
+    
+}
+
+.article{
+    padding-bottom:35px;
+    width:300px;
+}
+.article .img-wrapper img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+    height:250px;
+    width:100%;
+
+}
+
+/* .article .img-wrapper{
+    justify-content: center;
+    text-align: center;
+} */
+
+.article-title{
+    text-align: center;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+.article-text{
+    font-size: 13px;
+    padding:0 13px;
+}
+.article-btn{
+
+    text-align: center;
+    padding-top:20px;
+    padding-bottom:15px;
+}
+.article-btn button{
+    font-weight: bold;
+    font-size: 14px;
+    background-color: white;
+  padding:12px 25px;
+    border-radius: 30px;
+    border:2px solid #cfc3c6;
+}
+
+.footer{
+    background-color: black;
+    color:white;
+    display:flex;
+    padding:20px 200px;
+    justify-content: space-between;
+}
+
+.logo{
+   padding:50px 50px;
+}
+
+.more{
+    
+    display:flex;
+    color:#7a8384;
+}
+
+.footer-ul li a{
+    text-decoration: none;
+    color:#7a8384;
+    padding-bottom: 15px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.footer-article{
+    padding-right:150px;
+    padding-top:25px;
+}
+.footer-ul p{
+padding-top:25px;
+}
+
+.fa-brands.fa-instagram,
+.fa-brands.fa-facebook-f
+{
+    padding-right:10px;
+}
+
